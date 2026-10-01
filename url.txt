@@ -1,0 +1,1 @@
+https://proyek-submission-fundamental-data.streamlit.app/

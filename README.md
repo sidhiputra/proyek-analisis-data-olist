@@ -1,4 +1,4 @@
-# 📊 Proyek Analisis Data: E-Commerce Public Dataset (Olist)
+# 📊 Proyek Analisis Data: E-Commerce Public Dataset (Olist) ✨
 
 Proyek akhir kelas **Belajar Fundamental Analisis Data** (Dicoding) yang menganalisis tren transaksi bulanan, performa kategori produk, demografi wilayah pelanggan, serta segmentasi pelanggan menggunakan metode **RFM Analysis**.
 
@@ -9,8 +9,19 @@ Proyek akhir kelas **Belajar Fundamental Analisis Data** (Dicoding) yang mengana
 - `requirements.txt`: Daftar pustaka (*library*) Python yang dibutuhkan.
 - `url.txt`: Tautan menuju *dashboard* yang telah di-*deploy* di Streamlit Community Cloud.
 
-## 🚀 Cara Menjalankan Dashboard di Lokal (Local Environment)
+## Setup environment
 
-1. **Clone atau ekstrak repositori/folder proyek ini**, lalu buka terminal dan arahkan ke direktori proyek:
-   ```bash
-   cd submission
+```bash
+pip install -r requirements.txt
+```
+
+## Run steamlit app
+```
+streamlit run dashboard/dashboard.py
+```
+
+## Live Dashboard
+Silakan kunjungi tautan berikut untuk melihat aplikasi yang sudah di-deploy di Streamlit Cloud:
+```
+https://proyek-submission-fundamental-data.streamlit.app/
+```
